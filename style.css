@@ -1,0 +1,16 @@
+/* background */
+body {
+    background-color: rgb(4, 1, 31)
+}
+/* boxes */
+.newspaper{
+    text-align:center;
+    width: 800px;
+    align-items: center;
+    background-color:rgb(234, 234, 227)
+}
+
+#title{
+    text-align:center;
+    color:rgb(234, 234, 227)
+}
