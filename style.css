@@ -1,19 +1,15 @@
 /* background */
 body {
-    background-color: rgb(4, 1, 31)
+    background-color: rgb(248, 248, 242);
 }
 /* boxes */
 .newspaper{
     text-align:center;
     width: 800px;
     align-items: center;
-    background-color:rgb(234, 234, 227)
+    background-color:rgb(227, 234, 237)
 }
 
-#title{
-    text-align:center;
-    color:rgb(234, 234, 227)
-}
 
 /* alignment using flexbox */
 .container{
@@ -22,7 +18,47 @@ body {
     justify-content: space-around;
     align-items: center; 
 }
+
 /* navigation bar */
 .navbar ul{
+    list-style-type: none;
+    background-color: rgb(47, 18, 69);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
 
+.navbar a{
+    text-decoration: none;
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(234, 234, 227)
+}
+
+.navbar a:hover{
+    background-color: rgb(26, 11, 45);
+}
+
+.navbar li{
+    float: left;
+}
+
+#title{
+    font-family: "Cinzel Decorative", serif;
+    text-align: center;
+    color: rgb(37, 39, 41)
+}
+
+#greeting{
+    text-align: center;
+    color: rgb(37, 39, 41)
+}
+
+#linebreak{
+    width: 300px;
+    height: 6px;
+    
+    background-color: rgb(37,39,41);
 }
