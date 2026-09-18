@@ -22,9 +22,11 @@ body {
 /* navigation bar */
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(47, 18, 69);
+    background-color: rgb(154, 213, 255);
     padding: 0;
-    margin: 0;
+    margin: 240px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     overflow: hidden;
 }
 
@@ -34,17 +36,18 @@ body {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    color: rgb(234, 234, 227)
+    color: rgb(37, 39, 41);
 }
 
 .navbar a:hover{
-    background-color: rgb(26, 11, 45);
+    background-color: rgb(151, 202, 238);
 }
 
 .navbar li{
     float: left;
 }
 
+/*title*/
 #title{
     font-family: "Cinzel Decorative", serif;
     text-align: center;
@@ -57,8 +60,7 @@ body {
 }
 
 #linebreak{
-    width: 300px;
+    width: 600px;
     height: 6px;
-    
     background-color: rgb(37,39,41);
 }
