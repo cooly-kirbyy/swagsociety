@@ -19,9 +19,37 @@ body {
     align-items: center; 
 }
 
+/* alignment using grid for home page content*/
+
 .container2{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 33%);
+    grid-template-rows: repeat(3, 33%);
+
+    justify-content: center;
+}
+
+#headline{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 1;
+}
+
+#purpose{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#hpimages{
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 4;
 }
 
 /* navigation bar */
