@@ -27,8 +27,8 @@ body {
     grid-template-rows: repeat(6, 1fr);
 
     justify-content: center;
-    gap: 40px;
-    margin-top: 40px;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 .leftalign{
@@ -46,6 +46,7 @@ body {
     line-height: 1.5;
     text-align: justify;
     font-size: 20px;
+    width: 350px;
 }
 
 .hpimages{
