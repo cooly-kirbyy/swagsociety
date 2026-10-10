@@ -134,7 +134,17 @@ h2 { margin: 0;}
     image-rendering: crisp-edges;
 }
 
-.aboutme{
+#aboutme{
+
     font-family: "Roboto Condensed", sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 15px;
+    width: 350px;
 }
 
+.aboutcontainer{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
