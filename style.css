@@ -135,6 +135,8 @@ h2 { margin: 0;}
 }
 
 #aboutme{
+    grid-column-start: 8;
+    grid-column-end: 10;
 
     font-family: "Roboto Condensed", sans-serif;
     line-height: 1.5;
@@ -143,8 +145,26 @@ h2 { margin: 0;}
     width: 350px;
 }
 
+#selfie{
+    grid-column-start: 3;
+    grid-column-end: 7;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#yellowguy{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    z-index: 1;
+
+}
+
 .aboutcontainer{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(6, 1fr);
 }
+
+
+
