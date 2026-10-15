@@ -146,13 +146,14 @@ h2 { margin: 0;}
 }
 
 #selfie{
-    grid-column-start: 3;
+     grid-column-start: 3;
     grid-column-end: 7;
 
     grid-row-start: 1;
     grid-row-end: 2;
 
     margin: 0px;
+    padding: 0px;
 }
 
 #yellowguy{
@@ -166,11 +167,17 @@ h2 { margin: 0;}
 
 }
 
+#linkzelda{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    z-index: 5;
+
+    grid-row-start: 1;
+    align-self: start;
+}
+
 .aboutcontainer{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 350px 400px ;
 }
-
-
-
